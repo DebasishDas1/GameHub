@@ -1,4 +1,4 @@
-import User from '../model/User.js'
+import Game from '../model/Game.js'
 
 export const createUser = async (req, res, nest) => {
     try {

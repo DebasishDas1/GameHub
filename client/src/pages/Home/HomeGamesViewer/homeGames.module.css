@@ -1,5 +1,5 @@
 .home_games {
-    color: #00fa7d;
+    /* color: #00fa7d; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 80%;
-    flex: 1;
+    flex: 1; 
     margin: 3% 0;
 }
 
@@ -22,10 +22,10 @@
     background: #161b22;
     font: bold;
     font-size:large;
-    padding: 4%;
+    height: 30px;
 }
 
 .filter_button:hover {
     color: black;
-    background-color: #00fa7d;
+    background-color: white;
 }

@@ -21,7 +21,13 @@ app.get('/', (req, res, next) => {
 app.listen( PORT, async () => {
     console.log(`We are using port : ${PORT}`);
     try {
-        await mongoose.connect( dataBase_URL );
+        await mongoose.connect( 
+            dataBase_URL,   
+            {
+                useNewUrlParser: true,
+                useUnifiedTopology: true
+            }
+        );
         console.log('Cunnected with the Dstabase');
     } catch (error) {
         console.log(error.message)

@@ -1,5 +1,4 @@
 .wellcome_poster {
-    color: white;
     display: flex;
     justify-content: space-between;
     padding: 1% 10%;
@@ -7,6 +6,9 @@
 }
 
 .wellcome_poster > h1{
+    background: linear-gradient(135deg, #00fa7d, white);
+    background-clip: text;
+    color: transparent;
     display: flex;
     align-items: center;
     flex: 1;
