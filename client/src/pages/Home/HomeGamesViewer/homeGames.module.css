@@ -1,0 +1,31 @@
+.home_games {
+    color: #00fa7d;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter_games {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    flex: 1;
+    margin: 3% 0;
+}
+
+.filter_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #161b22;
+    font: bold;
+    font-size:large;
+    padding: 4%;
+}
+
+.filter_button:hover {
+    color: black;
+    background-color: #00fa7d;
+}

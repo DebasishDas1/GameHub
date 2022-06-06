@@ -1,0 +1,28 @@
+.wellcome_poster {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+    font-size: xx-large;
+}
+
+.wellcome_poster > h1{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.wellcome_poster > img{
+    display: flex;
+    flex: 1;
+}
+
+@media (max-width : 500px) {
+    .wellcome_poster {
+        flex-direction: column;
+    }
+
+    .wellcome_poster > h1{
+        font-size: xx-large;
+    }
+}

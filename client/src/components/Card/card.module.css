@@ -1,0 +1,90 @@
+.Card_structure, .game_card_info, .game_card_logo,
+.game_Card_play_button, .game_Card_structure
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.closs_button {
+    background: none;
+    color: red;
+    border: none;
+    font-size: xx-large;
+}
+
+.popup_title_contaner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game_Card_structure {
+    background: #161b22;
+    height: 20pc;
+    border-radius: 15px;
+    color: white;
+    /* width: 100%;
+    box-shadow: inset 20px 0px 48px 0 rgba(255, 255, 255, 0.05), 
+                inset -4px 12px 48px 0 rgba(255, 255, 255, 0.05); */
+}
+
+.game_Card_structure:hover{
+    background: #00fa7d;
+    color: black;
+}
+
+.game_Card_structure:hover a{
+    background: black;
+    color: #00fa7d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.game_Card_structure:hover .game_card_title{
+    color: black;
+}
+
+.game_card_logo {
+    align-items: flex-start;
+    flex: 3;
+    width: 85%;
+}
+
+.game_card_info {
+    flex: 6;
+    width: 100%;
+}
+
+.game_card_info a {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 4%;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    cursor:default;
+    background: #00fa7d;
+    color: black;
+}
+
+.game_card_title {
+    color: #00fa7d;
+    flex: 2;
+    width: 85%;
+    display: flex;
+    align-items: flex-end;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.game_card_description {
+    flex: 2;
+    width: 85%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}

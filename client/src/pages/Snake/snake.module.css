@@ -1,0 +1,15 @@
+ .snake_game_bord {
+   display: flex;
+   height: 100%;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .snake_dot {
+    position: absolute;
+    width: 1%;
+    height: 2%;
+    background-color: yellow;
+    border-radius: 10px;
+ }
