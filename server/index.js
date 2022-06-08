@@ -3,7 +3,8 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose'
 import cors from 'cors';
 
-import userRoute from './routes/userRoute.js'
+import userRoute from './routes/userRoute.js';
+import gameRouter from './routes/gameRoute.js';
 
 const app = express();
 const PORT = process.env.PORT || 5000 ;
@@ -12,6 +13,7 @@ const dataBase_URL = 'mongodb+srv://deba:1234@cluster0.okdgv.mongodb.net/?retryW
 app.use( bodyParser.json( {limit:"30mb", extended: true} ) );
 app.use( cors() );
 app.use( '/user', userRoute );
+app.use( '/game', gameRouter );
 // app.use( (req, res) => { res.header("Access-Control-Allow-Origin", "*"); })
 
 app.get('/', (req, res, next) => {

@@ -7,6 +7,7 @@ import GameScore from './GameScore'
 import styles from './game_template.module.css'
 
 const GameTemplate = (props) => {
+
     return (
         <div  style={ {backgroundColor: props.colour} }  className={styles.game_template}>
             <div className={styles.game}>

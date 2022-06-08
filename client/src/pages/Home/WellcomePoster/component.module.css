@@ -6,7 +6,7 @@
 }
 
 .wellcome_poster > h1{
-    background: linear-gradient(135deg, #00fa7d, white);
+    background: linear-gradient(135deg, rebeccapurple, tomato,  yellow);
     background-clip: text;
     color: transparent;
     display: flex;

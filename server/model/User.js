@@ -11,8 +11,9 @@ const userSchema = new Schema({
     pasword: { type: String, required: true, minlength: 6 },
     tags:  { type: String },
     game: [{
-      game_name: String,
-      game_score: Number,
+      type: mongoose.Types.ObjectId,
+      required: true,
+      ref: 'Game'
     }]
 });
 

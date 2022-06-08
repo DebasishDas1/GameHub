@@ -3,9 +3,9 @@ const { Schema, model } =  mongoose;
 import uniqueValidator from'mongoose-unique-validator';
 
 const userSchema = new Schema({
-    game_name: { type: String, required: true },
+  game_name: { type: String, required: true },
     log: [{
-      date: { type: String, required: true },
+      date: { type: Date, required: true },
       score:  { type: Number, required: true },
     }]
 });
