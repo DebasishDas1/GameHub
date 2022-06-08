@@ -10,7 +10,7 @@ export const newGame = async (req, res, nest) => {
             log: [{
               date: new Date,
               score:  score,
-            }]
+            }] 
         });
     } catch (error) {
         res.status(409).json({ message: error.message });
