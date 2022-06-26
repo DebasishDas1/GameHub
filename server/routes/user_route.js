@@ -5,11 +5,11 @@ import {
     login,
     editUser,
     deleteUser
-} from '../controller/userMiddleware.js'
+} from '../controller/user_middleware.js'
 
 const router = express.Router();
 
-router.get('/', allUser);
+router.get('/all', allUser);
 router.get('/login', login);
 router.post('/signUp', SignUp);
 router.put('/:uid', editUser);

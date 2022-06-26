@@ -1,6 +1,7 @@
 import Header from './Header'
 import WellcomePoster from './WellcomePoster'
 import HomeGamesViewer from './HomeGamesViewer'
+// import { Temp } from './Temp';
 
 // import axios from 'axios'
 // import { useEffect } from 'react';
@@ -21,6 +22,7 @@ const Home = () => {
             <Header />
             <WellcomePoster />
             <HomeGamesViewer />
+            {/* <Temp /> */}
         </>
     );
 };

@@ -3,7 +3,7 @@ import {
     newGame,
     getGame,
     updateGame
-} from '../controller/gameMiddleware.js'
+} from '../controller/game_middleware.js'
 
 const router = express.Router();
 
